@@ -62,13 +62,15 @@ section header {
 
 #weekly {
 
+    object-fit: cover;
     
     &>div {
         grid-template-columns: repeat(4, 292px);
     }
 
     img {
-        height: 160%;  
+        width: 160%;
+        height: auto;  
     }
 
     figure {
